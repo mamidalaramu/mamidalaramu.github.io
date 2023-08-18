@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/profile/profile_svg.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ramu Mamidala" />
+    <meta
+      name="description"
+      content="My name is Ramu Mamidala. This is my personal website."
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Ramu Mamidala Personal portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <!-- sun icon -->
+            <button
+              aria-label="theme-toggle sun"
+              id="theme-toggle"
+              class="header__sun"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a
+              class="header__resume btn"
+              href="/profile/CV-Resume.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+        <!-- menu-bar icon -->
+        <button aria-label="menu-bar" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <!-- sun icon -->
+            <button
+              aria-label="mobile-nav-theme"
+              id="theme-toggle"
+              class="mobile-nav__sun"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a aria-label="mobile-nav btn" href="#" class="mobile-nav__btn btn"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+    <main>
+      <section class="hero container">
+        <img
+          loading="lazy"
+          class="hero__img lazy"
+          src="/profile/spiderman.jpg"
+          alt="aircraft-image"
+        />
+        <h2 class="hero__subtitle"><span class="input"></span>👋 I'm</h2>
+        <h1 class="hero__title">Ramu Mamidala</h1>
+        <p class="hero__description">A passionate software engineer</p>
+        <a
+          rel="noopener"
+          class="hero__btn btn"
+          href="mailto:mamidalaramukumar@outlook.com"
+          target="_blank"
+          >Reach out</a
+        >
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            I am a tech enthusiast with experience in
+            <strong>IBM Integration Bus </strong>and<strong>
+              Bash scripting</strong
+            >. I love developing and automating projects, and am always excited
+            to solve complex problems using innovative approaches.
+          </p>
+          <p class="about__description">
+            In my previous role, I contributed to the development of a web
+            application that provided a centralized view of servers.
+          </p>
+          <p class="about__description">
+            I worked closely with my team to design and develop the
+            application's UI and backend functionality. Apart from work, I have
+            a passion for designing and building
+            <strong>remote-controlled aircraft</strong> and<strong>
+              drones</strong
+            >.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technology</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">Java</li>
+              <li class="about__list">Bash</li>
+              <li class="about__list">Python</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">javaScript</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">HTML</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img
+            class="about__img lazy"
+            src="/profile/profileImage.png"
+            alt="aircraft-image"
+          />
+        </div>
+      </section>
+      <section id="featured" class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Personal Dashboard</h2>
+          <a
+            rel="noopener"
+            aria-label="link featured projects"
+            href="https://personal-dashboard-zeta.vercel.app/"
+            target="_blank"
+            class="featured__link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="featured__description">
+          Designed and developed an Angular-based personal dashboard application
+          featuring a Todo list, note creation, real-time clock display, and
+          bookmark management. Utilized Angular, TypeScript, and local storage
+          to save data locally. Deployed on the Vercel platform with seamless
+          GitHub integration for automatic redeployment on repository updates.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label"></h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">Angular</li>
+              <li class="featured__info">TypeScript</li>
+              <li class="featured__info">SCSS</li>
+              <li class="featured__info">Github</li>
+              <li class="featured__info">Vercel</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="featured__label">Project type</h3>
+            <p class="featured__info">Single-Page Application (SPA)</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">2023-Present</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_1.png"
+              alt="Home"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_2.png"
+              alt="bookmark"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_3.png"
+              alt="Todo"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_4.png"
+              alt="Notes"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_5.png"
+              alt="Add Bookmark"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_6.png"
+              alt="Add Todo"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_7.png"
+              alt="Add Notes"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/fullstack_images/personalDashboard_8.png"
+              alt="Manage Bookmarks"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          It softens in time unless the patient blames the great desire of the
+          result. Any exception to any of them is something important and they
+          leave it at their advantage.
+        </p>
+        <div class="work__container">
+          <!-- --project 1 - -->
+          <h3 class="work__project-title">Portfolio</h3>
+          <div class="work__img-wrapper work__image1">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/project1_homePage.png"
+              alt="wax"
+            />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Portfolio</h3>
+            <p class="work__project-description1">
+              Explore my portfolio: A digital collection of my journey and
+              projects. Crafted using Vite, HTML, CSS, and JavaScript.
+            </p>
+            <p class="work__project-description2">
+              A digital space that showcases my journey and projects. This site
+              is built with Vite, which makes things fast, along with the
+              familiar building blocks of the web - HTML, CSS, and JavaScript,
+              to create a clean and dynamic presentation. Navigate through my
+              projects and get in touch to discuss collaboration opportunities.
+            </p>
+            <a class="btn work__project-btn" href="/index.html" target="_blank"
+              >Website</a
+            >
+          </div>
+          <!----
+          --project 2 -
+          <h3 class="work__project-title">Weather-Man</h3>
+          <div class="work__img-wrapper work__image2">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/drazeforce.png"
+              alt="force"
+            />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Weather-Man</h3>
+            <p class="work__project-description1">
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
+            </p>
+            <p class="work__project-description2">
+              Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+              commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          --project 3 -
+          <h3 class="work__project-title">Force</h3>
+          <div class="work__img-wrapper work__image3">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/drazeforce.png"
+              alt="force"
+            />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Trox</h3>
+            <p class="work__project-description1">
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
+            </p>
+            <p class="work__project-description2">
+              Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+              commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          --project 4 -
+          <h3 class="work__project-title">Max</h3>
+          <div class="work__img-wrapper work__image4">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/waxmoney.png"
+              alt="wax"
+            />
+          </div>
+          <div class="work__project work__contact4">
+            <h3 class="work__project-subtitle">Box</h3>
+            <p class="work__project-description1">
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
+            </p>
+            <p class="work__project-description2">
+              Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+              commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          --project 5 -
+          <h3 class="work__project-title">Force</h3>
+          <div class="work__img-wrapper work__image5">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/drazeforce.png"
+              alt="force"
+            />
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Rox</h3>
+            <p class="work__project-description1">
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
+            </p>
+            <p class="work__project-description2">
+              Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+              commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          --project 6 -
+          <h3 class="work__project-title">Force</h3>
+          <div class="work__img-wrapper work__image6">
+            <img
+              loading="lazy"
+              class="lazy"
+              src="/Projects_images/drazeforce.png"
+              alt="force"
+            />
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle"></h3>
+            <p class="work__project-description1">
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
+            </p>
+            <p class="work__project-description2">
+              Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
+              commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
+            </p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+          --->
+        </div>
+      </section>
+
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">ok....i get it</p>
+        <a
+          href="mailto:u1l2xg39@duck.com"
+          target="_blank"
+          class="contact__btn btn"
+          >Contact</a
+        >
+      </section>
+    </main>
+    <footer class="footer__container container section">
+      <h3 class="footer__title">~ Ramu M ~</h3>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
