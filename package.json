@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://mamidalaramu.github.io/mamidalaramu.github.io",
   "type": "module",
   "scripts": {
@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
-    "vite": "^4.3.9"
+    "vite": "^5.1.4"
   }
 }
